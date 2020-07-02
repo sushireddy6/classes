@@ -62,13 +62,14 @@
 //    }
 //  }
 //   hoist();
+
 function hoist(){
    const name = "sushi";
     addr="bengaluru";
    {
      name = "chinni";
      addr1="marathahalli";
-     console.log(name); //error
+     console.log(name); // outputs error
    }
  }
   hoist();
