@@ -1,13 +1,13 @@
-function hoist(){
-     name = "sushi";
-    addr="bengaluru";
-   {
-     name1 = "chinni";
-     addr1="marathahalli";
-     console.log(name); //outputs sushi
-   }
- }
-  hoist();
+// function hoist(){
+//     var name = "sushi";
+//     addr="bengaluru";
+//    {
+//      name1 = "chinni";
+//      addr1="marathahalli";
+//      console.log(name); //outputs sushi
+//    }
+//  }
+//   hoist();
 //  function hoist(){
 //     name = "sushi";
 //     addr="bengaluru";
@@ -41,3 +41,34 @@ function hoist(){
 //  }
 //  hoist();
 
+// function hoist(){
+//    let name = "sushi";
+//    addr="bengaluru";
+//   {
+//     name = "chinni";
+//     addr1="marathahalli";
+//     console.log(name); //outputs chinni
+//   }
+// }
+//  hoist();
+
+//  function hoist(){
+//     var name = "sushi";
+//     addr="bengaluru";
+//    {
+//      name = "chinni";
+//      addr1="marathahalli";
+//      console.log(name); //outputs chinni
+//    }
+//  }
+//   hoist();
+function hoist(){
+   const name = "sushi";
+    addr="bengaluru";
+   {
+     name = "chinni";
+     addr1="marathahalli";
+     console.log(name); //error
+   }
+ }
+  hoist();
